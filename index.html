@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belajar Komputer Dasar - Aan Saputra</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+
+  <header>
+    <h1>Belajar Komputer Dasar</h1>
+    <p>oleh Aan Saputra, S.Kom</p>
+    <nav>
+      <a href="#sejarah">Sejarah</a>
+      <a href="#pengenalan">Pengenalan</a>
+      <a href="#komponen">Komponen</a>
+      <a href="#kuis">Kuis</a>
+    </nav>
+  </header>
+
+  <div class="tools">
+    <button id="toggle-theme">🌙 Ganti Tema</button>
+    <a href="materi-komputer.pdf" download>📥 Unduh Materi PDF</a>
+  </div>
+
+  <section class="profil">
+  <img src="foto-aan.jpg" alt="Foto Aan Saputra" class="foto-profil" />
+  <h2>Aan Saputra, S.Kom</h2>
+  <p>Guru Informatika - SMP Negeri 8 Merauke</p>
+</section>
+
+  <main>
+    <section id="sejarah">
+      <h2>Sejarah Komputer</h2>
+      <p>Komputer pertama kali dikembangkan oleh Charles Babbage pada abad ke-19. Sejak saat itu, komputer telah mengalami perkembangan pesat.</p>
+    </section>
+
+    <section id="pengenalan">
+      <h2>Pengenalan Komputer</h2>
+      <p>Komputer adalah perangkat elektronik untuk mengolah data secara cepat dan akurat.</p>
+    </section>
+
+    <section id="komponen">
+      <h2>Komponen-Komponen Komputer</h2>
+      <ul>
+        <li><strong>Hardware</strong>: Komponen fisik seperti CPU, RAM, monitor, keyboard.</li>
+        <li><strong>Software</strong>: Program seperti sistem operasi dan aplikasi.</li>
+        <li><strong>Brainware</strong>: Pengguna yang mengoperasikan komputer.</li>
+      </ul>
+    </section>
+
+    <section id="kuis">
+      <h2>Kuis: Seberapa Paham Kamu?</h2>
+      <p><strong>Pertanyaan:</strong> Apa yang termasuk perangkat keras komputer?</p>
+      <form id="quizForm">
+        <label><input type="radio" name="jawaban" value="benar" /> CPU</label><br />
+        <label><input type="radio" name="jawaban" value="salah" /> Microsoft Word</label><br />
+        <label><input type="radio" name="jawaban" value="salah" /> Guru komputer</label><br />
+        <button type="submit">Jawab</button>
+      </form>
+      <p id="feedback"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Aan Saputra - SMP Negeri 8 Merauke</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
